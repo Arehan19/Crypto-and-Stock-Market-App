@@ -13,35 +13,9 @@ A Flask-based web application that allows users to track cryptocurrencies and st
 
 ---
 
-## 📂 Project Structure
-Crypto_db/
-│── app.py # Main Flask app entry point
-
----
-
-│── backend.py # Backend logic (DB operations, watchlist, etc.)
-
----
-
-│── binancedata.py # Binance API integration
-
----
-
-│── static/ # CSS styles & images
-
----
-
-│── templates/ # HTML templates (login, signup, home, market, etc.)
-
----
-
-│── .vscode/ # Editor settings
-
----
-
 ## 🛠️ Tech Stack
 - **Backend:** Python (Flask)
-- **Database:** MongoDB / MySQL (depending on configuration)
+- **Database:** MongoDB
 - **API:** Binance API
 - **Frontend:** HTML, CSS (Flask templates, static assets)
 
